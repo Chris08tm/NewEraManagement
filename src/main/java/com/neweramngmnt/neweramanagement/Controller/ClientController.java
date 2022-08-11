@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/client") // https://localhost:8080/client
+@RequestMapping("/clients") // https://localhost:8080/client
 public class ClientController {
 
     @Autowired
